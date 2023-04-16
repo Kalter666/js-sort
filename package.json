@@ -1,0 +1,13 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8000 index.js",
+    "start:gc": "node --expose-gc --max-old-space-size=8000 index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
